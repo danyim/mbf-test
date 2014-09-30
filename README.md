@@ -2,4 +2,4 @@
 - `npm install && bower install`
 - `gulp`
 - `ls plugins`
-- **You should see kendo.core.js**
+- **The directory should contain kendo.core.js since it was overridden. There should *NOT* be a file called kendo.ui.core.min.js**
