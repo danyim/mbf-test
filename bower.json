@@ -1,0 +1,28 @@
+{
+  "name": "mainbfiles",
+  "version": "0.0.0",
+  "authors": [
+    "Daniel Yim <daniel.yim@parivedasolutions.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "kendo-ui-core": "~2014.2.903"
+  },
+  "overrides": {
+    "kendo-ui-core": {
+      "main": {
+        "production": "src/js/kendo.core.js"
+      }
+    }
+  }
+}
